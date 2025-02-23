@@ -1,4 +1,4 @@
-name: dstoolbox
+name: project_env
 channels:
   - conda-forge
   - https://repo.anaconda.com/pkgs/main
@@ -6,4 +6,8 @@ channels:
   - https://repo.anaconda.com/pkgs/msys2
 dependencies:
   - scikit-learn=1.6.1
+  - python = 3.10
+  - pandas = 2.2.3
+  - matplotlib = 3.10
+  - ipykernel
 prefix: C:\Users\seanh\miniconda3\envs\dstoolbox
